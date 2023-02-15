@@ -1,0 +1,17 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background: url('http://source.unsplash.com/random') center center no-repeat fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+
+h1{
+    width: 380px; height: 50px; margin: 0vw 40vw ; padding: 0px; background-color: black; color: white;
+}
+p{
+    width: 800px; height: 100px; margin: 10px; padding: 20px;
+}

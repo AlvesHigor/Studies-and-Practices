@@ -1,0 +1,19 @@
+body{
+    background-color: gray;
+}
+#header{
+    background-color: cyan; margin-top: 50px;margin-bottom: 50px; font-family: 'Hubballi', cursive;
+}
+h1,h2,h3{
+    text-transform: uppercase;
+}
+#nameAndTitle h1, h2, h3{
+    margin: 0;
+}
+#nameAndTitle{
+    background-color: white;
+    width: 400px; 
+    margin: 0 auto; text-align: center;
+}
+
+

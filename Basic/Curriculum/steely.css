@@ -14,7 +14,7 @@ h1,h2,h3{
     background-color: rgb(211, 209, 209); width: 400px; margin: 0 auto; text-align: center;
 }
 #container{
-    display: grid;grid-template-columns: 30% auto; grid-column-gap:20px;    
+    display: grid; grid-template-columns: 30% auto; grid-column-gap:20px;    
 }
 #sideBar,#content{
     display: flex; flex-direction: column; row-gap: 20px;

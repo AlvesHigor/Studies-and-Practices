@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+    <title>Pòrtifolio</title>
+    <style>
+        body{
+            margin: 0% 15%; 
+        }
+        .container{
+            display: grid; grid-auto-flow: column; grid-auto-columns: 1fr;
+        }
+        #header{
+            font-family: Poppins; font-style: normal; font-weight: 600; line-height: 42px;
+            /*indentical to box height*/
+            text-decoration-line: underline;
+            color: #070f18; margin:40px 0px;
+        }
+        #menu ul{
+            list-style-type: none; margin: 0; padding: 0;
+        }
+        #menu li{
+            display: inline-block; margin-left: 20px;
+            font-family: Poppins; font-style: normal; font-weight: normal;font-size: 16px;line-height: 24px; text-align: center; color: #070f18;
+        }
+        #menu{
+            text-align: right;
+            margin-top: 49px;
+        }
+        a{
+            color: black; text-decoration: none;
+        }
+        #buttonCta{
+            background: #1f7cff; border-radius: 50px;
+            font-family: Poppins; font-style: normal;font-weight: 600px; font-size: 16px;line-height: 24px; text-align: center;color: #FFFFFF; padding: 10px 25px;
+        }
+        #headerCta p{
+            font-family: Poppins; font-style: normal; font-weight: normal;font-size: 16px; line-height: 32px; color: #575455;
+        }
+        #headerCta h1{
+            font-family: Poppins; font-style: normal; font-weight: bold; font-size: 45px; color: #000000;
+        }
+        #headerImg{
+            margin-left: 42px;
+        }
+        #headerImg img{
+            width: 100%; border-radius: 8%;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div id="header">
+            Portifolio
+        </div>
+        <div id="menu">
+            <ul>
+                <li><a href="">Meus Serviços</a></li>
+                <li><a href="">Contato</a></li>
+                <li><a href="">Portifólio</a></li>                
+            </ul>
+        </div>
+    </div>
+    <div class="container">
+        <div id="headerCta">
+            <h1>Olá, Meu nome <br> é Maria</h1>
+            <p>
+                Sou programadora e gostaria de apresentar meu <br>
+                trabaho para você através desse portifólio.
+            </p>
+            <a id="buttonCta" href="">Meus Serviços</a>
+        </div>
+        <div id="headerImg">
+            <img src="img/header.svg" >
+        </div>
+    </div>
+    
+</body>
+</html>

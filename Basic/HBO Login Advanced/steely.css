@@ -1,0 +1,22 @@
+:root{
+    --fonte--inter:"Inter";
+}
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+body{
+    background: url('asset/image/backgroud.svg') center no-repeat fixed black; background-size: contain;
+}
+header nav{
+    display: flex; justify-content: space-between; margin: 10px 100px;
+}
+header nav div img{
+   border: solid 1px white; 
+}
+header img{
+    width: 175px; height: 35px;
+}
+header nav ul{
+    display: flex; justify-content: space-between;
+}
+header nav a{
+    font-family: var(--fonte--inter); font-style: normal; font-weight: 400; font-size: 30px; text-align: center; color: #FFFFFF; text-decoration: none; padding: 2px 15px;
+}

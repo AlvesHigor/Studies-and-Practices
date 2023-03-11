@@ -1,0 +1,1 @@
+Web page for calculate media about values for note by students, a pratice with HTML, CSS and Java Scrip.    

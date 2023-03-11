@@ -1,1 +1,1 @@
-Web page for calculate media about values for note by students, a pratice with HTML, CSS and Java Scrip.    
+Web page for check if a person have more thatn 18 years for release access to by produts with alcahool, a pratice with HTML, CSS and Java Scrip.    
